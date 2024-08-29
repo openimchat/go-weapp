@@ -1,6 +1,6 @@
 package openpid
 
-import "github.com/medivhzhan/weapp/v3/request"
+import "github.com/openimchat/weapp/v3/request"
 
 type OpenPid struct {
 	request *request.Request

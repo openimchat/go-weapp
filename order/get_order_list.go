@@ -1,6 +1,6 @@
 package order
 
-import "github.com/medivhzhan/weapp/v3/request"
+import "github.com/openimchat/weapp/v3/request"
 
 type GetOrderListPayTimeRange struct {
 	BeginTime int `json:"begin_time"` //起始时间，时间戳形式，不填则视为从0开始。

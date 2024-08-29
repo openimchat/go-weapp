@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/medivhzhan/weapp/v3/request"
+	"github.com/openimchat/weapp/v3/request"
 )
 
 const (

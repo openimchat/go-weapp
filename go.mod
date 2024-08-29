@@ -1,4 +1,4 @@
-module github.com/medivhzhan/weapp/v3
+module github.com/openimchat/weapp/v3
 
 go 1.20
 

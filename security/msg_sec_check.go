@@ -1,6 +1,6 @@
 package security
 
-import "github.com/medivhzhan/weapp/v3/request"
+import "github.com/openimchat/weapp/v3/request"
 
 const apiMsgSecCheck = "/wxa/msg_sec_check"
 

@@ -1,6 +1,6 @@
 package livebroadcast
 
-import "github.com/medivhzhan/weapp/v3/request"
+import "github.com/openimchat/weapp/v3/request"
 
 const apiGetRoleList = "/wxaapi/broadcast/role/getrolelist"
 

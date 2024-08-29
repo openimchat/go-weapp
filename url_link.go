@@ -1,6 +1,6 @@
 package weapp
 
-import "github.com/medivhzhan/weapp/v3/request"
+import "github.com/openimchat/weapp/v3/request"
 
 const (
 	apiURLLink = "/wxa/generate_urllink"
@@ -30,7 +30,7 @@ type URLLinkRequest struct {
 	// 非必填	云开发静态网站自定义 H5 配置参数，可配置中转的云开发 H5 页面。不填默认用官方 H5 页面
 	CloudBase *URLLinkCloudBase `json:"cloud_base"`
 	// 非必填       要打开的小程序版本。正式版为 "release"，体验版为"trial"，开发版为"develop"。默认值"release"
-	EnvVersion string `json:"env_version,omitempty"` 
+	EnvVersion string `json:"env_version,omitempty"`
 }
 
 type URLLinkCloudBase struct {

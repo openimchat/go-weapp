@@ -1,7 +1,7 @@
 package subscribemessage
 
 import (
-	"github.com/medivhzhan/weapp/v3/request"
+	"github.com/openimchat/weapp/v3/request"
 )
 
 const apiSend = "/cgi-bin/message/subscribe/send"
