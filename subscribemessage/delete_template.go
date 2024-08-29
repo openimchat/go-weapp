@@ -1,6 +1,6 @@
 package subscribemessage
 
-import "github.com/medivhzhan/weapp/v3/request"
+import "github.com/openimchat/weapp/v3/request"
 
 const apiDeleteTemplate = "/wxaapi/newtmpl/deltemplate"
 

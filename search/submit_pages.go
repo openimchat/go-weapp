@@ -1,6 +1,6 @@
 package search
 
-import "github.com/medivhzhan/weapp/v3/request"
+import "github.com/openimchat/weapp/v3/request"
 
 const apiSubmitPages = "/wxa/search/wxaapi_submitpages"
 

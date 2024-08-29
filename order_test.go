@@ -1,7 +1,7 @@
 package weapp
 
 import (
-	"github.com/medivhzhan/weapp/v3/order"
+	"github.com/openimchat/weapp/v3/order"
 	"testing"
 	"time"
 )

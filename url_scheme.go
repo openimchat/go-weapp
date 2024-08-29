@@ -1,6 +1,6 @@
 package weapp
 
-import "github.com/medivhzhan/weapp/v3/request"
+import "github.com/openimchat/weapp/v3/request"
 
 const (
 	apiURLScheme = "/wxa/generatescheme"
@@ -21,7 +21,7 @@ type SchemedInfo struct {
 	// 通过scheme码进入小程序时的query，最大128个字符，只支持数字，大小写英文以及部分特殊字符：!#$&'()*+,/:;=?@-._~
 	Query string `json:"query"`
 	// 非必填       要打开的小程序版本。正式版为 "release"，体验版为"trial"，开发版为"develop"。默认值"release"
-        EnvVersion string `json:"env_version,omitempty"`
+	EnvVersion string `json:"env_version,omitempty"`
 }
 
 type URLSchemeResponse struct {

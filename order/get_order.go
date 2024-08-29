@@ -1,6 +1,6 @@
 package order
 
-import "github.com/medivhzhan/weapp/v3/request"
+import "github.com/openimchat/weapp/v3/request"
 
 type GetOrderRequest struct {
 	TransactionId   string `json:"transaction_id"`    //原支付交易对应的微信订单号。

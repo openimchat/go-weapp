@@ -1,6 +1,6 @@
 package ocr
 
-import "github.com/medivhzhan/weapp/v3/request"
+import "github.com/openimchat/weapp/v3/request"
 
 const apiDriverLicense = "/cv/ocr/drivinglicense"
 

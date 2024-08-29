@@ -3,7 +3,7 @@ package weapp
 import (
 	"fmt"
 
-	"github.com/medivhzhan/weapp/v3/request"
+	"github.com/openimchat/weapp/v3/request"
 )
 
 const (
