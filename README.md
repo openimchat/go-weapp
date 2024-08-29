@@ -7,7 +7,7 @@
 - [查看完整文档](https://pkg.go.dev/github.com/openimchat/weapp/v3)
 - SDK 暂不包含支付相关内容 已有很多优秀的支付相关模块;
 - 微信小程序的功能和接口一直在持续更新迭代,如果遇到没有的接口或者不符合当前实际情况的接口请提交 [issue](https://github.com/royalrick/weapp/issues/new) 或者发起 pull request;
-- 该程序是基于github.com/openimchat/weapp/v3 进行了扩展，支持获取用户的openpid
+- 该程序是基于github.com/medivhzhan/weapp/v3 进行了扩展，支持获取用户的openpid
 ## 获取代码
 
 ```sh
