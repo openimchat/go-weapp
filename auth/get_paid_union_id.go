@@ -1,6 +1,6 @@
 package auth
 
-import "github.com/openimchat/weapp/v3/request"
+import "github.com/openimchat/go-weapp/v3/request"
 
 const apiGetPaidUnionId = "/wxa/getpaidunionid"
 

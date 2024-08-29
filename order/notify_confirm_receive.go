@@ -1,6 +1,6 @@
 package order
 
-import "github.com/openimchat/weapp/v3/request"
+import "github.com/openimchat/go-weapp/v3/request"
 
 type NotifyConfirmReceiveRequest struct {
 	TransactionId   string `json:"transaction_id,omitempty"`    //原支付交易对应的微信订单号

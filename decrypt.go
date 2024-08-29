@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/openimchat/weapp/v3/encrypt"
+	"github.com/openimchat/go-weapp/v3/encrypt"
 )
 
 // DecryptUserData 解密用户数据

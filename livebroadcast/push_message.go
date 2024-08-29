@@ -1,6 +1,6 @@
 package livebroadcast
 
-import "github.com/openimchat/weapp/v3/request"
+import "github.com/openimchat/go-weapp/v3/request"
 
 const apiPushMessage = "/wxa/business/push_message"
 

@@ -3,7 +3,7 @@ package wxacode
 import (
 	"net/http"
 
-	"github.com/openimchat/weapp/v3/request"
+	"github.com/openimchat/go-weapp/v3/request"
 )
 
 const apiCreateQRCode = "/cgi-bin/wxaapp/createwxaqrcode"

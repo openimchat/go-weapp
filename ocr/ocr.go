@@ -1,7 +1,7 @@
 package ocr
 
 import (
-	"github.com/openimchat/weapp/v3/request"
+	"github.com/openimchat/go-weapp/v3/request"
 )
 
 type OCR struct {

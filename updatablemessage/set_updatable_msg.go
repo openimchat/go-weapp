@@ -1,6 +1,6 @@
 package updatablemessage
 
-import "github.com/openimchat/weapp/v3/request"
+import "github.com/openimchat/go-weapp/v3/request"
 
 const apiSetUpdatableMsg = "/cgi-bin/message/wxopen/updatablemsg/send"
 
