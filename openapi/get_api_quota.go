@@ -1,7 +1,7 @@
 package openapi
 
 import (
-	"github.com/openimchat/weapp/v3/request"
+	"github.com/openimchat/go-weapp/v3/request"
 )
 
 const apiGetApiQuota = "/cgi-bin/openapi/quota/get"

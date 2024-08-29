@@ -1,6 +1,6 @@
 package operation
 
-import "github.com/openimchat/weapp/v3/request"
+import "github.com/openimchat/go-weapp/v3/request"
 
 const apiGetJsErrList = "/wxaapi/log/jserr_list"
 

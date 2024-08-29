@@ -1,6 +1,6 @@
 package order
 
-import "github.com/openimchat/weapp/v3/request"
+import "github.com/openimchat/go-weapp/v3/request"
 
 type SetMsgJumpPathRequest struct {
 	Path string `json:"path"` //商户自定义跳转路径。

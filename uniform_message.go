@@ -1,6 +1,6 @@
 package weapp
 
-import "github.com/openimchat/weapp/v3/request"
+import "github.com/openimchat/go-weapp/v3/request"
 
 const (
 	apiSendUniformMessage = "/cgi-bin/message/wxopen/template/uniform_send"

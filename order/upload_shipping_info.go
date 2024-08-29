@@ -1,7 +1,7 @@
 package order
 
 import (
-	"github.com/openimchat/weapp/v3/request"
+	"github.com/openimchat/go-weapp/v3/request"
 )
 
 type OrderKey struct {

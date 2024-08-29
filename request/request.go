@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/openimchat/weapp/v3/logger"
+	"github.com/openimchat/go-weapp/v3/logger"
 )
 
 type Request struct {

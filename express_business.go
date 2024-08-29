@@ -1,6 +1,6 @@
 package weapp
 
-import "github.com/openimchat/weapp/v3/request"
+import "github.com/openimchat/go-weapp/v3/request"
 
 const (
 	apiBindAccount            = "/cgi-bin/express/business/account/bind"

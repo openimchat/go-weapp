@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openimchat/weapp/v3/order"
+	"github.com/openimchat/go-weapp/v3/order"
 )
 
 var appid = "wx0417444aae7355f7"

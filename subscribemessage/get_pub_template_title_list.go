@@ -1,6 +1,6 @@
 package subscribemessage
 
-import "github.com/openimchat/weapp/v3/request"
+import "github.com/openimchat/go-weapp/v3/request"
 
 const apiGetPubTemplateTitleList = "/wxaapi/newtmpl/getpubtemplatetitles"
 

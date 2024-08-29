@@ -1,6 +1,6 @@
 package order
 
-import "github.com/openimchat/weapp/v3/request"
+import "github.com/openimchat/go-weapp/v3/request"
 
 type IsTradeManagedRequest struct {
 	Appid string `json:"appid"` //待查询小程序的 appid，非服务商调用时仅能查询本账号

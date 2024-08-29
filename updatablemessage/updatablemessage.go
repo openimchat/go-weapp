@@ -1,6 +1,6 @@
 package updatablemessage
 
-import "github.com/openimchat/weapp/v3/request"
+import "github.com/openimchat/go-weapp/v3/request"
 
 type UpdatableMessage struct {
 	request *request.Request
