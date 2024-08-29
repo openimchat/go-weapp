@@ -6,7 +6,6 @@ import (
 	"os"
 	"time"
 
-	openpid "github.com/medivhzhan/weapp/v3/openid"
 	"github.com/medivhzhan/weapp/v3/order"
 
 	"github.com/medivhzhan/weapp/v3/auth"
@@ -156,12 +155,12 @@ func (cli *Client) AccessToken() (string, error) {
 		return token, nil
 	} else {
 
-		req := auth.GetStableAccessTokenRequest{
+		req := auth.GetAccessTokenRequest{
 			Appid:     cli.appid,
 			Secret:    cli.secret,
 			GrantType: "client_credential",
 		}
-		rsp, err := cli.NewAuth().GetStableAccessToken(&req)
+		rsp, err := cli.NewAuth().GetAccessToken(&req)
 		if err != nil {
 			return "", err
 		}
@@ -169,7 +168,6 @@ func (cli *Client) AccessToken() (string, error) {
 		if err := rsp.GetResponseError(); err != nil {
 			return "", err
 		}
-
 		cli.cache.Set(key, rsp.AccessToken, time.Duration(rsp.ExpiresIn)*time.Second)
 		return rsp.AccessToken, nil
 	}
@@ -305,9 +303,4 @@ func (cli *Client) NewPhonenumber() *phonenumber.Phonenumber {
 // NewOrder 发货内容管理
 func (cli *Client) NewOrder() *order.Order {
 	return order.NewOrder(cli.request, cli.combineURI)
-}
-
-// 获取用户openid
-func (cli *Client) NewGetOpenPid() *openpid.OpenPid {
-	return openpid.NewOpenPid(cli.request, cli.combineURI)
 }
